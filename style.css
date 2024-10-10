@@ -1,0 +1,47 @@
+*{
+    margin: 0; /*Removendo as margens padrão*/
+    padding: 0; /*Removendo o preenchimento padrão*/
+}
+
+/*Estilizar o cabeçalho*/
+header {
+background-color: #333;/*Define a cor de fundo do cabeçalho*/
+padding: 20px 0px; /*Adiciona espaçamento na parte superior e inferior*/
+}
+
+nav ul {
+    display: flex; /*define a exibição dos itens da lista para a linha*/
+    list-style: none; /*Remove os marcadores*/
+    justify-content: center; /*Centraliza os itens do menu ao centro*/  
+    margin: 15px; /*Define espaçamento entre linhas*/  
+}
+
+nav ul li a {
+    color: white; /*cor da letra branca*/ 
+    text-decoration: none; /*removendo o sublinhado*/
+    font-weight: bold; /*define os textos do link em negrito*/
+    padding: 5px 10px; 
+    transition: color 0.1s;
+}
+    nav ul li a:hover { /*Efeito ao passar o mouse*/ 
+    color: bisque;
+    }
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+}
+
+#Home {
+    background-color: beige;
+}
+
+
+#Sobre{
+    background-color: lightblue;
+}
+
+#Contato{
+    background-color: lavender;
+}
